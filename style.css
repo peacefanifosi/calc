@@ -3,32 +3,12 @@
     margin: 0;
     padding: 0;
 }
-/* .container{
-    position: relative;
-    left:35%;
-    margin-top: 4%;
-    
-}
-.fclass input{
-    height: 45px;
-    width: 25%;
-    display: block;
-}
-.fclass button{
-    padding: 2%;
-    margin-right: 18px;
-    margin-top: 5px;
-    border-radius: 15px;
-}
-.equal{
-    background-color: rgb(84, 84, 216);
-} */
-
 
 .container{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 6%;
     background-color: rgb(44, 44, 89);
     height: 540px;
     border-radius: 10px;
@@ -146,11 +126,23 @@ background-color: rgb(98, 97, 97);
 }
 @media(max-width:768px){
     .container{
-        width: 100%;
+        max-width: 90%;
+        margin-top: 35%;
+       
+        
     }
+    
 }
 @media(max-width:900px){
     .container{
-        width: 100%;
+        max-width: 90%;
+        margin-top: 35%;
+        
+    }
+}
+@media(max-width:1100px){
+    .container{
+        width: 90%;
+        margin-top: 35%;
     }
 }

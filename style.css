@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    position: relative;
+    left:35%;
+    margin-top: 4%;
+    
+}
+.fclass input{
+    height: 45px;
+    width: 25%;
+    display: block;
+}
+.fclass button{
+    padding: 2%;
+    margin-right: 18px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.equal{
+    background-color: rgb(84, 84, 216);
+} */
+
+
+.container{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(44, 44, 89);
+    height: 540px;
+    border-radius: 10px;
+    box-shadow: 7px 50px 50px 7px rgb(57, 46, 46);
+    
+    
+}
+.screen input{
+    display: block;
+    width: 90%;
+    padding: 3%;
+    height: 60px; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+    
+}
+.row1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+   display: flex;
+   justify-content: space-between;
+}
+button{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 25px;
+    border: 2px solid rgb(153, 153, 234);
+}
+.special{
+    color: turquoise;
+}
+.clearbtn{
+    color: red;
+    border: 2px solid red;
+}
+.clearbtn:hover{
+    color: white;
+    background-color: red;
+}
+.row1 button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+button:hover{
+background-color: rgb(98, 97, 97);
+}
+.row2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+   display: flex;
+   justify-content: space-between;
+}
+.row2 button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.row3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+   display: flex;
+   justify-content: space-between;
+}
+.row3 button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.row4{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+   display: flex;
+   justify-content: space-between;
+}
+.row4 button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.row5{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+   display: flex;
+   justify-content: space-between;
+}
+.row5 button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.equal{
+    color: white;
+    background-color: turquoise;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:900px){
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+
+
+
+
+<!-- <div class="container">
+<form class="fclass">
+<input type="text" id="result"><br>
+<button>c</button>
+<button>()</button>
+<button>%</button>
+<button>/</button><br>
+<button>7</button>
+<button>8</button>
+<button>9</button>
+<button>*</button><br>
+<button>4</button>
+<button>5</button>
+<button>6</button>
+<button>-</button><br>
+<button onclick="getvalue1()">1</button>
+<button onclick="getvalue2()">2</button>
+<button>3</button>
+<button>+</button><br>
+<button>+/-</button>
+<button>0</button>
+<button>.</button>
+<button class="equal">=</button>
+</form>
+</div> -->
+
+
+
+
+<section>
+    <div class="container">
+        <div class="screen">
+            <input type="text" id="result">
+        </div><br><br>
+        <div class="row1">
+            <button class="clearbtn" onclick="getclear()">C</button>
+            <button class="special" onclick="getvalueopenbracket()">( </button>
+            <button class="special" onclick="getvalueclosebracket()"> )</button>
+            <button class="special" onclick="getvaluedivide()">/</button>
+        </div><br>
+        <div class="row2">
+            <button onclick="getvalue7()">7</button>
+            <button onclick="getvalue8()">8</button>
+            <button onclick="getvalue9()">9</button>
+            <button class="special" onclick="getvaluemultiply()">*</button>
+        </div><br>
+        <div class="row3">
+            <button onclick="getvalue4()">4</button>
+            <button onclick="getvalue5()">5</button>
+            <button onclick="getvalue6()">6</button>
+            <button class="special" onclick="getvaluesubtract()">-</button>
+        </div><br>
+        <div class="row4">
+            <button onclick="getvalue1()">1</button>
+            <button onclick="getvalue2()">2</button>
+            <button onclick="getvalue3()">3</button>
+            <button class="special" onclick="getvalueadd()">+</button>
+        </div><br>
+        <div class="row5">
+            <button onclick="getvaluepercent()">%</button>
+            <button onclick="getvaluez()">0</button>
+            <button onclick="getvaluedecimalpoint()">.</button>
+            <button class="equal" onclick="getresult()">=</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

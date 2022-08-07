@@ -98,7 +98,7 @@ function getvalue1(){
                                                                     
                                                                     }
 
-        function getvaluepercent(){
+        function getvaluepercen(){
     
                                     document.getElementById('result').value +='%'
                                                                         
@@ -109,5 +109,11 @@ function getvalue1(){
                                                                             
                                                              }
          function getclear(){
-            document.getElementById('result').value = ''
-         }                                                    
+    //    document.getElementById('result').value = ''
+    //         let clear = document.getElementById('result').innerHTML;
+    //          str = clear.substr ing(0, clear.length - 1);
+    //         document.getElementById('result').innerHTML = str; 
+                let input = document.getElementById('result');
+                input.value = input.value.substring(0, input.value.length-1);
+            
+        }                                                    ``
